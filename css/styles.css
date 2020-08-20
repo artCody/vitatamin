@@ -122,6 +122,10 @@
     text-align: center;
 }
 
+.section-mobile-header {
+    display: none;
+}
+
 .title-main {
     font-family: 'UniNeue Light';
     font-size: 39px;
@@ -665,6 +669,10 @@
     margin-bottom: 60px;
 }
 
+.useful-list-item:last-child {
+    margin-bottom: 0;
+}
+
 .btn-order-now {
     background-color: #FF9901;
     color: #fff;
@@ -873,7 +881,7 @@
 
 
 .timer {
-    padding: 60px 0;
+    padding: 60px 0 48px 0
 }
 
 .timer-btn {
@@ -973,6 +981,7 @@
 .action-from-submit {
     margin-top: 100px;
     font-family: 'DIN Consered';
+    background-color: #fff;
 }
 
 .action-sale {
@@ -1102,16 +1111,16 @@
 .footer-top {
     font-weight: bold;
 font-size: 37px;
-margin-bottom: 22px;
+margin-bottom: 4px;
 }
 
 .footer-bottom a{
     text-align: center;
     color: #000;
     font-style: normal;
-    font-weight: 350;
-    font-size: 24px;
-    line-height: 124.7%;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: 'Uni Neue', sans-serif;
 }
 
 
@@ -1119,4 +1128,27 @@ margin-bottom: 22px;
 .btn {
     color: #000;
     background: red;
+}
+
+.action-mobile-title {
+    display: none;
+    text-align: center;
+    margin-bottom: 41px;
+}
+
+.action-from-title {
+    font-size: 25px;
+    font-family: 'DIN Consered';
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 124.7%;
+}
+
+.action-from-subtitle {
+    font-size: 25px;
+    font-family: 'DIN Consered';
+    font-weight: bold;
+    color: #000;
+    line-height: 31px;
 }

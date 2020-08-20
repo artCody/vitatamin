@@ -772,7 +772,8 @@
 }
 
 .header-block-title {
-    font-size: 60px;
+    font-size: 70px;
+    text-transform: uppercase;
     width: 30%;
 }
 

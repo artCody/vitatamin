@@ -1,0 +1,845 @@
+@media screen and (max-width: 1200px) {
+    .stock-orange {
+        position: static;
+        margin-top: 20px;
+    }
+
+    .label-course {
+        margin-top: 50px;
+    }
+
+    .header-stock-text {
+        width: auto;
+    }
+
+    .section-header-block {
+        font-size: 32px;
+    }
+
+    .section-action .header-col:last-child {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .action-container-main {
+        flex-direction: column;
+    }
+    .action-container-col:first-child {
+        background: url(../images/header-mobile.png) no-repeat;
+        min-height: 339px;
+        background-size: cover;
+        padding: 0 25px;
+    }
+
+    .action-container-col {
+        width: 100%;
+    }
+
+    .action-from {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .section-action-left {
+        margin-top: 0;
+    }
+
+    .sub-action-container {
+        display: none;
+    }
+
+    .action-title {
+        font-size: 30px;
+    }
+
+    .action-from {
+        border-radius: 0;
+    }
+
+    .action-sale {
+        display: none;
+    }
+
+    .section-action .container{
+        padding: 0;
+    }
+
+    .section-container-header {
+        border-radius: 0;
+    }
+}
+
+/* @media screen and (max-width: 840px) {
+    .action-from {
+        max-width: 455px;
+    }
+    .action-from-input {
+        font-size: 24px;
+    }
+} */
+
+@media screen and (max-width: 768px) {
+
+
+    .order .section-title-center {
+        display: none;
+    }
+
+
+    .section-title-consists {
+        text-transform: uppercase;
+    }
+
+    .button .accept {
+        background-color: #9CB01A;
+        color: #000;
+    }
+    .accept-col-right {
+        display: none;
+    }
+
+    .accept-item {
+        justify-content: center;
+    }
+
+    .accept-item-bottom {
+        flex-direction: column;
+    }
+
+    .accept-item-img {
+        align-self: center;
+    }
+
+    .old-price-header {
+        display: flex;
+    }
+
+    .old-price-header .price-text {
+        font-family: 'UniNeue Light';
+        font-size: 10px;
+        line-height: 124.7%;
+        margin-right: 5px;
+    }
+
+    .old-price-header .old-price {
+        font-size: 14px;
+        line-height: 128.7%;
+    }
+
+    .new-price {
+        font-size: 20px;
+    }
+
+    .accept-text-m {
+        display: block;
+    }
+
+    .accept-text-m p {
+        font-weight: 300;
+        font-size: 26px;
+        line-height: 143.7%;
+        font-family: 'UniNeue Light';
+        text-align: justify;
+        margin-top: 10px;
+    }
+
+    .new-price-header .price-text {
+        font-size: 15px;
+    }
+
+    .header-middle {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .old-price-header {
+        margin-top: 10px;
+    }
+
+    .title-subtitle-sale {
+        font-size: 20px;
+    }
+
+    .header-middle-left img {
+        width: 250px;
+    }
+
+    .section-action .header-middle-left img {
+        width: 250px;
+    }
+
+    .section-action .header-col:last-child  {
+        padding: 0;
+    }
+    .header-badge-sale {
+        display: none;
+    }
+    .useful-inner {
+        flex-direction: column-reverse;
+        margin-top: 80px;
+    }
+
+    .order-list {
+        flex-wrap: wrap;
+    }
+
+    .step-right {
+        display: none;
+    }
+
+    .useful-col-right {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .consists-list {
+        flex-wrap: wrap;
+    }
+
+    .consists-list-item {
+        width: 100%;
+    }
+
+    .main-header {
+        padding-top: 0;
+    }
+
+    .header-container {
+        padding: 0 25px;
+        /* flex-direction: column-reverse; */
+        overflow: hidden;
+    }
+
+    .header-stock {
+        margin-top: 20px;
+        font-size: 23px;
+    }
+
+    .main-header .container {
+        padding: 0;
+    }
+    .section-header-block {
+        width: 100%;
+        font-size: 17px;
+    }
+
+
+    .header-block-title {
+        padding: 10px 0;
+        font-size: 40px;
+    }
+
+    .main-header .section-container-header {
+        border-radius: 0;
+        flex-direction: column;
+    }
+
+    .main-header .section-header-block:last-child {
+        border-radius: 0;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .header-col {
+        height: auto;
+    }
+
+    .advantage-list {
+        flex-direction: column;
+    }
+
+    .advantage-item {
+        width: 100%;
+        text-align: left;
+    }
+
+    .header-stock-text {
+        max-width: 220px;
+        line-height: 30px;
+    }
+
+    .stock-orange {
+        font-size: 23px;
+        padding: 3px 10px;
+        position: absolute;
+        right: -42%;
+        bottom: -9px;
+    
+    }
+
+    .header-col-right-wrapper {
+        width: 100%;
+    }
+
+    .label-course {
+        width: 262px;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 25px;
+        margin-top: 55px;
+    }
+
+    .action-offer-price {
+        font-size: 23px;
+        padding: 10px 33px;
+    }
+
+    .main-header .action-offer {
+        margin-top: 15px;
+    }
+
+    .action-offer-discount {
+        font-size: 17px;
+        margin-top: 8px;
+    }
+    
+
+    .order-btn {
+        font-size: 27px;
+        width: 280px;
+    }
+
+    .header-col-left {
+        align-items: flex-end;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .main-header .flacon-sale {
+        width: 132px;
+        height: 132px;
+    }
+
+    .main-header .flacon-sale-text {
+        font-size: 17px;
+        top: -5px;
+        left: 26px;
+        background-color: transparent;
+    }
+
+    .section-action .flacon-sale {
+        width: 132px;
+        height: 132px;
+    }
+
+    .section-action .flacon-sale-text {
+        font-size: 17px;
+        top: -5px;
+        left: 26px;
+        background-color: transparent;
+    }
+
+    .stop-drinking-btn {
+        background-color: #000;
+        color: #fff;
+    }
+
+    .useful-desc {
+        font-size: 27px;
+    }
+
+    .useful-col-left {
+        text-align: center;
+    }
+
+    .useful-list {
+        flex-direction: column;
+    }
+
+    .useful-list-img {
+        margin: 0;
+        margin-right: 20px;
+    }
+
+    .useful-list-item-desc {
+        text-align: left;
+    }
+    .useful-list-item {
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .useful-main-img {
+        width: 130px;
+        height: 128px;
+    }
+
+    .useful-second-img {
+        width: 83px;
+        height: 168px;
+    }
+
+    .useful-second-img img {
+        width: 100%;
+    }
+
+    .useful-main-img img {
+        width: 100%;
+    }
+
+    .order-list-item {
+        width: 50%;
+        margin-bottom: 35px;
+    }
+
+    .order-list-desc {
+        margin-top: 30px;
+    }
+
+    .section-container-header {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .section-header-block:last-child {
+        width: 100%;
+        border-radius: 0;
+        padding: 10px 0;
+    }
+
+    .advantage-desc p{
+        margin-bottom: 30px;
+        display: inline-block;
+    }
+
+    .section-action .flacon-sale .mini-flacon{
+        transform: rotate(-26deg);
+        margin-right: -11px;
+        z-index: 10;
+        margin-top: 20px;
+        position: relative;
+        width: 46%;
+    }
+    
+    
+    .section-action .flacon-sale .big-flacon{
+        transform: rotate(18deg);
+        position: relative;
+        z-index: 1;
+        width: 59%;
+        margin-top: -73px;
+    }
+
+    .flacon-sale-m {
+        display: flex;
+    }
+
+    .section-action {
+        background: none;
+    }
+
+    .action-title {
+        margin-top: 30px;
+    }
+
+    .action-offer {
+        margin-top: 10px;
+    }
+
+    .action-from-input {
+        font-size: 20px;
+        height: 54px;
+    }
+
+    .action-from {
+        padding: 62px 57px;
+    }
+
+    .action-from-submit {
+        margin-top: 30px;
+    }
+
+    .action-from-submit {
+        padding: 20px 0;
+        color: #E5B454;
+        background: #000;
+        height: auto;
+    }
+    .action-from p {
+        text-align: center;
+    }
+
+    .feedback-item {
+        height: auto;
+    }
+    
+
+    .footer {
+        padding: 130px 0 317px 0;
+    }
+    .footer-top {
+        font-size: 20px;
+        font-family: 'DIN Consered';
+    }
+
+    .footer-bottom {
+        font-size: 15px;
+    }
+
+    .section-order-title-m {
+        display: block;
+    }
+
+    .useful .useful-main-img {
+        width: 238px;
+        height: auto;
+    }
+
+    .useful-price {
+        font-size: 29px;
+    }
+
+    .useful-price {
+        right: -71px;
+        bottom: 7px;
+    }
+
+    .container {
+        padding: 0 25px;
+    }
+    .advantage-item {
+        font-size: 16px;
+        position: relative;
+        padding-left: 20px;
+        margin-bottom: 25px;
+    }
+    .advantage-item::before{
+        content: '';
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        -moz-border-radius: 8px;
+        -webkit-border-radius: 8px;
+        border-radius: 8px;
+        background-color: #9CB01A;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 3px;
+     }
+
+     .title-center-feedback {
+         padding: 30px 0 0 0;
+     }
+
+
+}
+
+
+@media screen and (max-width: 414px) {
+
+
+
+    .action-container-col:first-child {
+        min-height: auto;
+        background: url(../images/header-mobile.png) no-repeat;
+        background-size: 100%;
+        background-position: right 0;
+    }
+
+    .middle-left-title {
+        display: none;
+    }
+
+    .accept-subtitle {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .title-subtitle {
+        font-size: 25px;
+    }
+
+    .title-main {
+        font-size: 15px;
+        margin-top: 7px;
+    }
+
+    .title-subtitle-sale {
+        margin-top: 30px;
+        font-size: 14px;
+    }
+
+    .header-middle {
+        justify-content: flex-start;
+    }
+    .header-middle-left {
+        margin-right: 16px;
+    }
+
+    .new-price-header {
+        margin-top: 30px;
+    }
+    
+    .header-col-left {
+        margin-left: -9px;
+        margin-bottom: -36px;
+    }
+
+    .header-middle-left img {
+        width: 140px;
+    }
+
+    .section-action .header-middle-left img {
+        width: 140px;
+    }
+    .section-action .header-middle {
+        margin-top: 0;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+
+    
+    .section-action .header-col:last-child {
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .label-course {
+        margin: 0;
+        margin-top: 50px;
+    }
+
+    .header-container {
+        overflow: visible;
+    }
+
+    .main-header {
+        min-height: 329px;
+        background: url(../images/header-mobile.png) no-repeat;
+        background-position: 0 106px;
+        background-size: 100%;
+        background-position: right 106px;
+    }
+
+    .header-col {
+        padding-bottom: 0;
+    }
+
+    .header-col-right-wrapper {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .action-offer {
+        max-width: 262px;
+    }
+
+
+    .advantage {
+        padding-top: 25px;
+    }
+
+    .act {
+        font-size: 30px;
+    }
+
+     .timer-inner {
+         border: none;
+         height: 160px;
+     }
+
+     .timer-btn {
+         max-width: 250px;
+         font-size: 27px;
+     }
+
+     .btn-control {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        background-color: #E5B454;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+
+     .btn-control img {
+         width: 50%;
+     }
+
+     .slider-container {
+         width: 100%;
+         padding: 0 20px;
+     }
+
+     .customNextBtn {
+        position: absolute;
+        right: 16px;
+        z-index: 10;
+     }
+
+     .customPrevBtn {
+         position: absolute;
+         left: 13px;
+         z-index: 10;
+     }
+
+     .countdown {
+         max-width: 250px;
+     }
+
+     .countdown-time {
+         font-size: 35px;
+         width: 50px;
+         height: 50px;
+     }
+
+
+    .advantage-desc p {
+        display: inline-block;
+        font-size: 15px;
+    }
+
+    .consists {
+        padding: 16px 0 60px 0;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    .consists-list-title {
+        font-size: 20px;
+    }
+
+    .consists-list-desc {
+        margin-top: 20px;
+    }
+
+    .consists-list-item {
+        margin-bottom: 30px;
+    }
+
+    .drugs {
+        padding: 3px 0;
+    }
+
+    .order-btn {
+        top: -37px;
+        height: 75px;
+    }
+
+    .drugs .container {
+        margin-top: 50px;
+    }
+
+    .drugs-list {
+        margin-top: 38px;
+    }
+
+    .stop-drinking {
+        border-top: 2px solid #000;
+    }
+
+    .stop-drinking .container {
+        position: relative;
+    }
+
+    .stop-drinkingp-col-left {
+        width: 100%;
+    }
+
+    .stop-drinking-inner {
+        flex-direction: column;
+    }
+
+    .stop-drinking .section-title {
+        display: none;
+    }
+
+    .section-title-m {
+        display: block;
+    }
+
+    .overlay-stop-drinking {
+        display: block;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .stop-drinkingp-col-right {
+        width: 100%;
+    }
+
+    .stop-drinkingp-col-right p {
+        text-align: justify;
+    }
+
+    .stop-drinking-badge {
+        display: flex;
+    }
+
+    .stop-drinkingp-col-left > p {
+        display: none;
+    }
+
+    .container {
+        padding: 0 25px;
+    }
+
+
+    .order-list-img {
+        width: 100px;
+        height: 100px; 
+    }
+
+    .order-list-img img {
+        width: 59px;
+    }
+
+    .section-feedback .container {
+        padding: 0;
+    }
+
+    /* .caroulel-title {
+
+    } */
+
+    .feedback-item {
+        border: 2px solid #E5B454;
+    }
+
+}
+
+
+
+@media screen and (max-width: 350px) {
+    .header-middle .header-col:last-child {
+        margin-top: -30px;
+    }
+
+    .title-subtitle-sale {
+        margin-top: 10px;
+    }
+
+    .header-middle {
+        align-items: flex-start;
+    }
+
+    .new-price-header {
+        margin-top: 0;
+    }
+
+    .old-price-header {
+        flex-direction: column;
+    }
+
+    .useful-price {
+        right: -45px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+
+    .stock-orange {
+        position: static;
+    }
+
+    
+} 
+
+

@@ -26,11 +26,20 @@
 }
 
 @font-face {
+    font-family: 'DIN Pro Regular';
+    src: url('fonts/DINPro-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'DIN Consered';
     src: url('fonts/DINConsered.otf');
     font-weight: normal;
     font-style: normal;
 }
+
+
 
 @font-face {
     font-family: 'UniNeue Light';

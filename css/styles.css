@@ -34,16 +34,16 @@
 
 .header-middle-left {
     position: relative;
-    margin-right: 30px;
+    margin-right: 64px;
 }
 
 
 .section-action .header-middle-left img {
-    width: 277px;
+    width: 315px;
 }
 
 .section-action .header-col:last-child {
-    padding: 0 38px;
+    padding: 0 10px;
     margin-top: 60px;
 }
 
@@ -71,6 +71,7 @@
     font-family: 'DIN Consered';
     font-size: 70px;
     color: #9CB01A;
+    margin-top: 2px;
 }
 
 .title-subtitle-sale {
@@ -95,6 +96,7 @@
 .price-text {
     font-size: 30px;
     font-weight: bold;
+    margin-bottom: 5px;
 }
 
 .new-price {
@@ -115,7 +117,7 @@
 }
 
 .old-price-header {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .new-price-header, .old-price-header {
@@ -127,13 +129,13 @@
 }
 
 .title-main {
-    font-family: 'UniNeue Light';
+    font-family: 'UniNeue Bold';
     font-size: 39px;
     font-style: normal;
     font-weight: 300;
     font-size: 39px;
     line-height: 124.7%;
-    margin-top: 60px;
+    margin-top: 42px;
 }
 
 
@@ -236,7 +238,7 @@
 
 .consists {
     background-color: #FF9901;
-    padding: 66px 0;
+    padding: 48px 0 135px 0;
 }
 
 .section-title {
@@ -249,8 +251,14 @@
     color: #FF9901;
 }
 
+.useful-title {
+    font-size: 70px;
+}
+
 .section-title-consists {
     color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
 }
 
 .section-title-m {
@@ -274,7 +282,7 @@
 
 .consists-list {
     display: flex;
-    margin-top: 30px;
+    margin-top: 76px;
     justify-content: space-between;
 }
 
@@ -295,7 +303,7 @@
 .consists-list-title {
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 35px;
     font-family: 'DIN Consered';
 }
 
@@ -330,12 +338,17 @@
     padding: 90px 0;
 }
 
+.drugs-section-title {
+    font-size: 70px;
+}
+
 .accept {
     margin-top: 90px;
 }
 
 .accept-title {
     color: #9CB01A;
+    font-size: 70px;
 }
 
 .accept-subtitle {
@@ -346,6 +359,11 @@
 .accept-item {
     display: flex;
     margin-bottom: 30px;
+}
+
+.order-btn.accept {
+    background-color: #9CB01A;
+    color: #000;
 }
 
 
@@ -368,6 +386,7 @@
 }
 
 .accept-item-bottom {
+    margin-top: 10px;
     display: flex;
     justify-content: space-between;
 }
@@ -464,7 +483,7 @@
     margin-top: 64px;
     max-width: 1000px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .drugs-list-title {
@@ -478,7 +497,7 @@
 .drugs-list-item {
     width: 290px;
     box-sizing: content-box;
-    margin-bottom: 40px;
+    margin-bottom: 45px;
     background-color: #fff;
 }
 
@@ -499,9 +518,9 @@
     font-size: 18px;
 }
 
- .drugs .container {
+ /* .drugs .container {
      margin-top: 70px;
- }
+ } */
 
 .stop-drinking {
     background: url(../images/jaredd-craig-T15gG5nA9Xk-unsplash\ 1.png);
@@ -583,14 +602,20 @@
 
 
 .useful {
-    padding: 60px 0;
+    padding: 60px 0 128px 0;
 }
 
 
 .useful-inner {
-    margin-top: 100px;
+    margin-top: 63px;
     display: flex;
     justify-content: space-between;
+}
+
+.useful-list-item-desc {
+    font-family: 'UniNeue Light';
+    font-size: 20px;
+    line-height: 143.7%;
 }
 
 .useful-main-img {
@@ -718,6 +743,7 @@
     text-align: center;
     margin-top: 40px;
     color: #fff;
+    font-size: 20px;
 }
 
 .order-container {
@@ -747,6 +773,10 @@
 .section-action {
     background: url(../images/header-background.png) no-repeat;
     min-height: 721px;
+}
+
+.section-action .header-middle-left {
+    margin-right: 38px;
 }
 
 .section-action .header-middle{
@@ -865,12 +895,12 @@
 .advantage-list {
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .advantage-desc {
     text-align: justify;
-    margin-bottom: 60px;
+    margin-bottom: 85px;
 
 }
 
@@ -979,7 +1009,7 @@
 }
 
 .action-from-submit {
-    margin-top: 100px;
+    margin-top: 85px;
     font-family: 'DIN Consered';
     background-color: #fff;
 }
@@ -1036,7 +1066,7 @@
 }
 
 .feedback-item {
-    border: 5px solid #E5B454;
+    border: 5px solid #FF9901;
     border-radius: 80px;
     padding: 30px 30px 60px 30px;
     height: 100%;

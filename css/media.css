@@ -714,7 +714,7 @@
         width: 36px;
         height: 36px;
         border-radius: 50%;
-        background-color: #E5B454;
+        background-color: #FF9901;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -895,7 +895,7 @@
     } */
 
     .feedback-item {
-        border: 2px solid #E5B454;
+        border: 2px solid #FF9901;
     }
 
 }
@@ -926,6 +926,14 @@
     .useful-price {
         right: -45px;
     }
+
+    .action-from-submit {
+        font-size: 20px;
+    }
+
+    .new-price {
+        padding: 4px 3px;
+    }
 }
 
 @media screen and (max-width: 330px) {
@@ -933,6 +941,7 @@
     .stock-orange {
         position: static;
     }
+
 
     
 } 

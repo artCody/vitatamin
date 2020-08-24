@@ -72,6 +72,45 @@
     }
 }
 
+@media screen and (max-width: 1009px) {
+    .drugs-list-item:nth-child(2n) {
+        margin-right: 0;
+    }
+
+    .drugs-list-item:nth-child(2n+1) {
+        margin-right: 60px;
+    }
+
+    .drugs-list {
+        max-width: 640px;
+    }
+    
+    
+    .drugs-list-item:last-child {
+        margin-right: 0;
+    }    
+}
+
+@media screen and (max-width: 689px) {
+    .drugs-list-item:nth-child(2n) {
+        margin-right: 0;
+    }
+
+    .drugs-list-item:nth-child(2n+1) {
+        margin-right: 0;
+    }
+
+    .drugs-list {
+        max-width: 290px;
+    }
+    
+    
+    .drugs-list-item:last-child {
+        margin-right: 0;
+    }    
+}
+
+
 @media screen and (max-width: 768px) {
 
 

@@ -486,12 +486,24 @@
 .drugs-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     box-sizing: content-box;
     margin-top: 64px;
     max-width: 1000px;
     margin: 0 auto;
     margin-top: 60px;
+}
+
+.drugs-list-item {
+    margin-right: 60px;
+}
+
+.drugs-list-item:nth-child(2n+1) {
+    margin-right: 0;
+}
+
+.drugs-list-item:first-child {
+    margin-right: 60px;
 }
 
 .drugs-list-title {
@@ -990,7 +1002,7 @@
 
 .advantage-item {
     text-align: center;
-    width: 348px;
+    width: 382px;
     font-size: 25px;
     padding: 0 10px;
 }

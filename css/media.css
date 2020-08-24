@@ -115,6 +115,7 @@
 
     .old-price-header {
         display: flex;
+        align-items: center;
     }
 
     .old-price-header .price-text {
@@ -122,6 +123,7 @@
         font-size: 10px;
         line-height: 124.7%;
         margin-right: 5px;
+        margin-bottom: 0;
     }
 
     .old-price-header .old-price {
@@ -198,6 +200,7 @@
 
     .consists-list {
         flex-wrap: wrap;
+        margin-top: 42px;
     }
 
     .consists-list-item {
@@ -393,7 +396,9 @@
 
 
     .order-list-desc {
-        margin-top: 30px;
+        margin-top: 15px;
+        font-weight: bold;
+        font-size: 13px;
     }
 
     .section-container-header {
@@ -538,6 +543,10 @@
 
 @media screen and (max-width: 414px) {
 
+
+    .order-container {
+        margin-top: 40px;
+    }
 
     .new-price {
         border-radius: 6px;
@@ -764,7 +773,7 @@
     }
 
     .consists {
-        padding: 16px 0 60px 0;
+        padding: 16px 0 30px 0;
     }
 
     .section-title {

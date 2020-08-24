@@ -124,6 +124,14 @@
     text-align: center;
 }
 
+.new-price-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
 .section-mobile-header {
     display: none;
 }
@@ -602,7 +610,7 @@
 
 
 .useful {
-    padding: 60px 0 128px 0;
+    padding: 60px 0 70px 0;
 }
 
 
@@ -1012,6 +1020,7 @@
     margin-top: 85px;
     font-family: 'DIN Consered';
     background-color: #fff;
+    -webkit-appearance: none;
 }
 
 .action-sale {

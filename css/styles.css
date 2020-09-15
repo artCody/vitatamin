@@ -1089,7 +1089,7 @@
 .feedback-item {
     border: 5px solid #FF9901;
     border-radius: 80px;
-    padding: 30px 30px 60px 30px;
+    padding: 60px 30px 60px 30px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -1161,8 +1161,9 @@
 
 .footer-top {
     font-weight: bold;
-font-size: 37px;
-margin-bottom: 4px;
+    font-size: 37px;
+    margin-bottom: 4px;
+    text-transform: uppercase;
 }
 
 .footer-bottom a{
